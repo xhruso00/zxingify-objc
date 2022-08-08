@@ -17,9 +17,9 @@
 #import "ZXBitMatrix.h"
 #import "ZXImage.h"
 
-#if TARGET_OS_EMBEDDED || TARGET_IPHONE_SIMULATOR
+//#if TARGET_OS_EMBEDDED || TARGET_IPHONE_SIMULATOR
 #import <ImageIO/ImageIO.h>
-#endif
+//#endif
 
 @implementation ZXImage
 
